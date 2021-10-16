@@ -2,5 +2,5 @@
 
 Working notes
 
-Continue on section 11.1.5
+Continue on section 11.1.
 Top of the page
