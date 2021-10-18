@@ -117,15 +117,6 @@
         "hungry"
       ],
       "id": "11"
-    },
-    {
-      "name": "test",
-      "species": "Dino",
-      "diet": "herbivore",
-      "personalityTraits": [
-        "anxious"
-      ],
-      "id": "12"
     }
   ]
 }
