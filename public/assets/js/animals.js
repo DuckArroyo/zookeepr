@@ -1,7 +1,6 @@
-const { response } = require("express");
-
 const $animalForm = document.querySelector("#animals-form");
 const $displayArea = document.querySelector("#display-area");
+const { response } = require("express");
 
 const printResults = (resultArr) => {
   console.log(resultArr);
