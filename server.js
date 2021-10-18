@@ -1,3 +1,7 @@
+const apiRoutes = require("./routes/apiRoutes");
+const htmlRoutes = require("./routes/htmlRoutes");
+app.use("/api", apiRoutes);
+app.use("/", htmlRoutes);
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
@@ -11,23 +15,3 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 //!Adding Server static file route to the "Public folder  " - is this name correct? Allows the serer access to thefiles in the folder without indivudual routes.
 app.use(express.static("public"));
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
-app.get("/animals", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/animals.html"));
-});
-
-app.get("/zookeepers", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/zookeepers.html"));
-});
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
-app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
-});
