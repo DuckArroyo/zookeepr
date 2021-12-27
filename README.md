@@ -1,6 +1,19 @@
 # zookeepr
 
-Working notes
+# Contributions by:
 
-Continue on section 11.4.6
-Top of the page
+DeveloperDuckArroyo
+
+[Email](mailto:DeveloperDuckArroyo@gmail.com)
+
+[Portfolio](https://github.com/DuckArroyo/portfolio)
+
+[React Portfolio](http://DuckArroyo.github.io/reactPortfolio)
+
+[GitHub](https://github.com/DuckArroyo)
+
+[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+
+[LinkedIn](https://www.linkedin.com/in/duckarroyo)
+
+[CodePen](https://codepen.io/DeveloperDuckArroyo)
